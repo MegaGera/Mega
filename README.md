@@ -91,3 +91,8 @@ Do you think you can access and hack me? I bet you to do it! I want to keep it s
 ## Web Access
 
 [https://megagera.com](https://megagera.com)
+
+## Contact Information:
+
+- gera1397@gmail.com
+- GitHub: [MegaGera](https://github.com/MegaGera)
