@@ -8,7 +8,7 @@ Everything is deployed in production. Feel free to contact me if you want to use
 
 ![Main Architecture](static/architecture_main_title.png)
 
-**Totally open source.**
+**Totally open source under [MIT License](LICENSE)**
 
 ## What is Mega
 
