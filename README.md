@@ -10,7 +10,7 @@ Everything is deployed in production. Feel free to contact me if you want to use
 
 **Totally open source under [MIT License](LICENSE)**
 
-**Table of Contents**
+## Table of Contents
 
 - [What is Mega](#what-is-mega)
 - [Services](#services)
@@ -27,7 +27,7 @@ Everything is deployed in production. Feel free to contact me if you want to use
 
 ## What is Mega
 
-The goal of this project is to learn, investigate and build different types of applications that I could use every day. I have a lot of ideas coming to my mind, and you will see them here.
+The goal of this project is to learn, investigate and build different types of applications that I could use every day.
 
 Microservices architecture is a perfect approach for this project. It allows me to build each service using the framework or programming language of my choice, giving me the opportunity to expand my knowledge in software development.The modularity and scalability are two other big reasons for choosing this architecture. And because it's called 'micro', I try to keep each microservice as small and efficient as possible while ensuring security.
 
@@ -37,15 +37,19 @@ I repeat, is totally open source. You can use the code as you want, collab, or u
 
 *MegaGoal* is the main application, I recommend you to visit the repository.
 
+The number and quality of the services and applications will increase. I want to introduce other techonologies, new services and features, try different protocol communications (even develop IoT services), use other data structures (with blockchain in the horizon)... I have a lot and exciting ideas coming to my mind! And you will see them here.
+
 ## Services
 
 Sometimes I call them services, other times microservices. Some services are composed by other services and it's really difficult to measure when is micro and when is not.
+
+For now, these are the different micro-services that form part of *Mega*:
 
 ### MegaProxy
 
 Virtual proxy that handles all the https requests from Internet to whatever *Mega* service. It is built with **Nginx**. Only https traffic to the domain [https://megagera.com](https://megagera.com) and some subdomains is allowed.
 
-Repository: [MegaGera/MegaProxy](https://github.com/MegaGera/MegaProxy)
+- Repository: [MegaGera/MegaProxy](https://github.com/MegaGera/MegaProxy)
 
 ### MegaAuth
 
@@ -58,7 +62,7 @@ Authentication service. User management and validation API for the other service
 
 Football application to save your matches watched and get stats about your data.
 
-It is composed by 4 services: **WebApp (Angular)**, **Server (Node.js)**, **Stats (Django)**, and **Database (MongoDB)**.
+It is composed by 5 services: **WebApp (Angular)**, **Server (Node.js)**, **Stats (Django)**, **Database (MongoDB)**, and **Updater (Python)**.
 
 This is the main application were most work was done.
 
