@@ -10,6 +10,21 @@ Everything is deployed in production. Feel free to contact me if you want to use
 
 **Totally open source under [MIT License](LICENSE)**
 
+**Table of Contents**
+
+- [What is Mega](#what-is-mega)
+- [Services](#services)
+  - [MegaProxy](#megaproxy)
+  - [MegaAuth](#megaauth)
+  - [MegaGoal](#megagoal)
+  - [MegaMedia](#megamedia)
+  - [MegaHome](#megahome)
+  - [MegaDocu](#megadocu)
+- [General Deployment](#general-deployment)
+- [Security](#security)
+- [Web Access](#web-access)
+- [Contact Information](#contact-information)
+
 ## What is Mega
 
 The goal of this project is to learn, investigate and build different types of applications that I could use every day. I have a lot of ideas coming to my mind, and you will see them here.
@@ -72,7 +87,7 @@ Personal documentation application. In this application I write documentation ab
 
 I used the framework [Docusaurus](https://docusaurus.io/) for this service. The git repository is private.
 
-## General deployment
+## General Deployment
 
 All the services are running in a **AWS EC2** machine inside **docker containers**. All the dockers are deployed in the same docker network, but only *MegaProxy* has an interface that goes out of the machine to the Internet. Each service has his own `Dockerfile` and `docker-compose.yml` files to handle the container easily.
 
