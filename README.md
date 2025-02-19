@@ -29,7 +29,7 @@ Everything is deployed in production. Feel free to contact me if you want to use
 
 The goal of this project is to learn, investigate and build different types of applications that I could use every day.
 
-Microservices architecture is a perfect approach for this project. It allows me to build each service using the framework or programming language of my choice, giving me the opportunity to expand my knowledge in software development.The modularity and scalability are two other big reasons for choosing this architecture. And because it's called 'micro', I try to keep each microservice as small and efficient as possible while ensuring security.
+Microservices architecture is a perfect approach for this project. It allows me to build each service using the framework or programming language of my choice, giving me the opportunity to expand my knowledge in software development. The modularity and scalability are two other big reasons for choosing this architecture. And because it's called 'micro', I try to keep each microservice as small and efficient as possible while ensuring security.
 
 In this repository you will find a general overview of the project and its services, and then in each service repository you will find a more detailed explanation of how it works and technologies used.
 
