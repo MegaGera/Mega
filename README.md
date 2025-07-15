@@ -8,8 +8,6 @@ Everything is deployed in production. Feel free to contact me if you want to use
 
 ![Main Architecture](static/architecture_main_title.png)
 
-**Totally open source under [MIT License](LICENSE)**
-
 ## Table of Contents
 
 - [What is Mega](#what-is-mega)
@@ -110,6 +108,10 @@ Do you think you can access and hack me? I bet you to do it! I want to keep it s
 ## Web Access
 
 [https://megagera.com](https://megagera.com)
+
+## License
+
+All the microservices are licensed under GPL-3.0 license except MegaGoal
 
 ## Contact Information
 
